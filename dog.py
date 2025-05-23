@@ -3,3 +3,4 @@ def __int__(sefl, nome, raca, idade, cor):
     self.raca = raca
     self.idade = idade
     self.cor = cor
+    cachorro.cachorros_cadastrado.append(self)
