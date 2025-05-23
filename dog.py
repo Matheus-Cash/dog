@@ -16,3 +16,4 @@ def __int__(sefl, nome, raca, idade, cor):
             print ("\n --- Cachorros Cadastrados ---")
             for i, cachorro in emurate(cls.cachorros_cadastrado,1):
                 print(f"{i}. {cachorro.nome} | {cachorro.raca} | {cachorro.idade} | {cachorro.cor}")
+                print("-------------------------------")
