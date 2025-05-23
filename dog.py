@@ -4,3 +4,14 @@ def __int__(sefl, nome, raca, idade, cor):
     self.idade = idade
     self.cor = cor
     cachorro.cachorros_cadastrado.append(self)
+
+
+    @classmethod
+    def listar_cachorros(cls):
+        if not cls.cachorros_cadastrado:
+            print("Nenhum Cadastrado")
+            return
+
+
+            print ("\n --- Cachorros Cadastrados ---")
+            for i, cachorro in emurate(cls.cachorros_cadastrado,1):
